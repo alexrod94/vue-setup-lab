@@ -48,3 +48,7 @@ Here's a helpful guide in case you're stuck: [How to create a Vue component](htt
 Pro tip: if you use the Vetur extension, you just need to write "vue" inside your .vue file and choose the appropriate template to get a basic structure.
 
 Once you've created your new component, we want to show it inside the App.vue file. We've already seen in class how to do that; but [here's a step by step guide](https://flaviocopes.com/vue-import-component/) that'll help you with this task.
+
+## Showing data from your JavaScript inside your HTML
+
+Now that you have your new component, we're going to practice how to link the elements inside the `<script>` with our `<template>`
