@@ -51,4 +51,32 @@ Once you've created your new component, we want to show it inside the App.vue fi
 
 ## Showing data from your JavaScript inside your HTML
 
-Now that you have your new component, we're going to practice how to link the elements inside the `<script>` with our `<template>`
+Now that you have your new component, we're going to practice how to link the elements inside the `<script>` with our `<template>`.
+
+For this, you'll need to understand `Text Interpolation`. If you need a refresher about it, [here's the link to the official documentation](https://vuejs.org/guide/essentials/template-syntax.html#text-interpolation).
+
+## (Bonus) Create a "Hello World" function that fires when you click on a button
+
+This challenge is a bit more advanced; but it will show you how easy it is to create and trigger functions (or methods, as they're called in Vue) when you're working with a JavaScript method.
+
+Here's what you need to do:
+
+- Create a new method called `helloWorld()` that shows the phrase "hello world" on the console.
+- Create a new button inside your component and show it in the home page.
+- Call the method `helloWorld()` when you click on your newly created button.
+
+If you need any help, [here's the link to the official documentation](https://vuejs.org/guide/essentials/event-handling.html#inline-handlers).
+
+## (Bonus) Creating two different routes and navigating between them
+
+We'll dive much deeper into the Vue Router module in future lessons; but if you want a new challenge, here's your last task for this lab:
+
+- If you didn't include it during your initial set up, download and configure the Router module. [Here's a link to the official guide](https://github.com/vuejs/router).
+
+Remember you'll only need to install it again if you didn't choose to include it in your project when you created it with the CLI.
+
+- Create a new component and register it as a route. Again, [the documentation](https://router.vuejs.org/) is your best friend here.
+
+- Create a navbar (it can be as simple as two links on the website's top section) that allows you to navigate between your components.
+
+That's it! Happy coding :)
